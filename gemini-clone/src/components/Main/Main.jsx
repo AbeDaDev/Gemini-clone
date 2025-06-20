@@ -1,6 +1,8 @@
 import React from 'react'
 import './Main.css'
 import { assets } from '../../assets/assets'
+import react, { useContext } from "react";
+import { Context } from "../../context/context";
 
 const Main = () => {
 
@@ -52,7 +54,7 @@ const Main = () => {
                             <hr />
                             <hr />
                         </div>
-                        :<p dangerouslySetInnerHTML={{_html:resultData}}></p>
+                        :<p dangerouslySetInnerHTML={{__html:resultData}}></p>
                         }
                     </div>
                 </div>
