@@ -1,9 +1,4 @@
- 
-const {
-  GoogleGenerativeAI,
-  HarmCategory,
-  HarmBlockThreshold,
-} = require("@google/generative-ai");
+ import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from "@google/generative-ai";
 
 const MODEL_NAME = "gemini-pro";
 const API_KEY = "AIzaSyCmlWCYted4EqGNTLUzRFP42KjD5OqPFa0";
@@ -38,4 +33,4 @@ async function runChat(prompt) {
   return response.text(); 
 }
 
-module.exports = runChat
+export default runChat
