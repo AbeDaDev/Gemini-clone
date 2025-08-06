@@ -1,12 +1,18 @@
-# React + Vite
+🤖 Gemini AI Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+With the growing demand for AI technologies, I’ve been eager to build and practice through hands-on projects. As part of my AI Engineering journey, I followed a tutorial to create a Gemini AI clone.
 
-Currently, two official plugins are available:
+This project utilizes OpenAI’s API and demonstrates how to recreate a simplified version of Google’s Gemini AI. It gave me deeper insight into how AI models work behind the scenes and how user input is processed and transformed into meaningful responses. Exploring the internal workings of AI has been both educational and fascinating.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I’m excited to continue learning and building more AI-powered projects.
 
-## Expanding the ESLint configuration
+⸻
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Technologies Used
+	•	HTML
+	•	CSS
+	•	Vite
+	•	React
+	•	Netlify (for deployment)
+	•	OpenAI API
+	•	REST API
